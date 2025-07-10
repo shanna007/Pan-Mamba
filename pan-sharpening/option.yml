@@ -28,9 +28,9 @@ source_ms: ms
 source_pan: pan
 
 pretrain:
-  pretrained: False
-  pre_sr: ~
-  pre_folder: ~
+  pretrained: True
+  pre_sr: bestPSNR.pth
+  pre_folder: pan-sharpening/checkpoint/pretrained/Mamba/mambawv3
 
 test:  #用于指标测试的代码
   algorithm: panmamba_baseline_finalversion #pannetffft
